@@ -1,0 +1,15 @@
+*{margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+    border: 2px solid black;
+    width: 22.2rem;
+    padding: .5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(65, 109, 111);
+    color: white;
+    gap: .4rem;
+}
