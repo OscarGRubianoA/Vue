@@ -14,7 +14,7 @@ createApp({
 // let favoritos =  []
 fetch("https://mindhub-xj03.onrender.com/api/amazing")
   .then(res => res.json())
-  .then(data =>    this.eventos = data
+  .then(data =>    this.eventos = data.events
    /*  eventos = data.events;
     console.log(eventos) */
     /* crearCheckbox(eventos, $categorys)
